@@ -11,5 +11,10 @@ public class EventListner{
       }
     }
   }
+  
+  public void on EnchantItem(EnchantItemEvent event){
+    Player player = event.getEnchanter();
+    
+  }
 
 }
